@@ -1,0 +1,24 @@
+{
+  "career":
+  {
+    "info":"To obtain a challenging and rewarding software engineer position where a degree in computer engineering and 3 years of experience as a programmer will be fully utilized."
+
+  },
+  "education":[
+    {
+      "degree":"SSC",
+      "school":"RATNAM HIGH SCHOOL",
+      "data":["2013","97%"]
+    },
+    {
+      "degree":"INTERMEDIATE",
+      "collge":"JCR CHAITANYA JUNIOR COLLEGE",
+      "data":["2015","92.6%"]
+    },
+    {
+      "degree":"B.TECH",
+      "college":"SREE VIDYANIKETHAN ENGINEERING COLLEGE",
+      "data":["2019","78%"]
+    }
+  ]
+}
