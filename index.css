@@ -5,7 +5,7 @@ body{
  display: flex;
  flex-direction: row;
  justify-content: center;
-
+ border-radius: 20px;
 }
 .profile{
  width: 30%;
@@ -13,7 +13,8 @@ body{
  background: #F0F8FF;
  margin: 2%;
  padding: 1%;
- border: 1px solid #72A2F1;
+ border: 1px solid #008B8B;
+  border-radius: 20px;
  }
 .content{
  width: 70%;
@@ -21,16 +22,18 @@ body{
  background: #F0F8FF;
  margin: 2%;
  padding: 1%;
- border: 1px solid #72A2F1;
+ border: 1px solid #008B8B;
+  border-radius: 20px;
 }
 img{
  padding-top: 2px;
  display: block;
  margin-left: auto;
  margin-right: auto;
- width: 125px;
- height: 125px;
+ width: 150px;
+ height: 150px;
  vertical-align: middle;
+  border-radius: 20px;
 }
 h2,h3{
  color: #333;
@@ -46,6 +49,17 @@ a:hover{
  background-color: #F0F8FF;
  color: #72A2FF;
  }
+ table {
+   width:95%;
+
+ }
+ td{
+   padding:1%;
+    }
+  tr{
+    color: #008B8B;
+    background: #F0F8FF;
+    }
 @media only screen and (min-width:0px) and (max-width:480px) {
  body{
    background-color: #F0F8FF;
@@ -54,6 +68,7 @@ a:hover{
    display: flex;
    flex-direction: column;
    justify-content: center;
+    border-radius: 20px;
  }
  .profile{
    width: 100%;
@@ -61,7 +76,8 @@ a:hover{
    background: #F0F8FF;
    margin: 1%;
    padding: 0%;
-   border: 2px solid #F172A2;
+   border: 2px solid #008B8B;
+    border-radius: 20px;
     }
  .content{
    width: 100%;
@@ -69,7 +85,8 @@ a:hover{
    background: #F0F8FF;
    margin: 1%;
    padding: 0%;
-   border: 2px solid #F172A2;
+   border: 2px solid #008B8B;
+    border-radius: 20px;
     }
  a{
    text-decoration: none;
@@ -79,7 +96,7 @@ a:hover{
  }
  a:hover{
    background-color: #F0F8FF;
-   color: #FF72A2;
+   color: #008B8B;
     }
 }
 @media only screen and (min-width:480px) and (max-width:720px) {
@@ -87,6 +104,7 @@ a:hover{
    display: flex;
    flex-direction: row;
    justify-content: center;
+    border-radius: 20px;
  }
  body{
    background-color: #F0F8FF;
@@ -97,7 +115,8 @@ a:hover{
    background: #F0F8FF;
    margin: 1%;
    padding: 0%;
-   border: 2px solid #72F1A2;
+   border: 2px solid #008B8B;
+    border-radius: 20px;
     }
  .content{
    width: 100%;
@@ -105,7 +124,8 @@ a:hover{
    background: #F0F8FF;
    margin: 1%;
    padding: 0%;
-   border: 2px solid #72F1A2;
+   border: 2px solid #008B8B;
+    border-radius: 20px;
     }
  a{
    text-decoration: none;
@@ -113,4 +133,6 @@ a:hover{
    background-color: #F0F8FF;
 
  }
- a:hover{
+ a:hover{background-color: #F0F8FF;
+ color: #008B8B;
+  }
